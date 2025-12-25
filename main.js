@@ -1,9 +1,5 @@
-import Phaser from 'phaser'
+import Phaser from 'phaser';
+import { gameConfig } from './src/config/gameConfig.js';
 
-const config = {
-    width: 800,
-    height: 500,
-    type: Phaser.AUTO
-}
-
-const game = new Phaser.Game(config)
+// Create the Phaser game instance
+const game = new Phaser.Game(gameConfig);
