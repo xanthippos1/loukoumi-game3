@@ -66,3 +66,7 @@ npm run build    # Build for production
 - This is just meant to be a very basic test.
 - Orginize the folders of this game as they should be organized based on the Phaser.js documentation
 - Utilize Javascript (not Typescript) if possible.
+
+### TASK 2: Loukoumi character/sprite
+
+- in the file ./report.pdf, on the first page there is a picture of Loukoumi, a little lamb like character. Replace the moving red heard object with a sprite that looks like the Loukoumi lamb character on this page.

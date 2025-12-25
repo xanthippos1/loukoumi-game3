@@ -20,13 +20,13 @@ export class MainScene extends Phaser.Scene {
         }).setOrigin(0.5);
 
         // Add instructions
-        this.add.text(400, 70, 'Use arrow keys to move the heart around!', {
+        this.add.text(400, 70, 'Use arrow keys to move Loukoumi around!', {
             fontFamily: 'Arial',
             fontSize: '16px',
             color: '#1E3A5F'
         }).setOrigin(0.5);
 
-        // Create player (heart) in the center
+        // Create player (Loukoumi the lamb) in the center
         this.player = this.physics.add.sprite(400, 300, 'player');
         this.player.setCollideWorldBounds(true);
 
