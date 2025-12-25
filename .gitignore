@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+build
+out
+
+# Environment files (secrets, API keys)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Bundler cache (if using Vite, Parcel, etc.)
+.cache
+.parcel-cache
+.vite
+
+# Editor settings (optional - some teams share these)
+.idea
+*.swp
